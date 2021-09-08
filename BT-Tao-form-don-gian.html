@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tạo Form đơn giản</title>
+    <style>
+        .chu_xanh{
+            color: blue;
+            float: right;
+        }
+        .tieude{
+            color: white;
+            background: coral;
+            text-align: center;
+        }
+        .cam{
+            color: orange;
+        }
+    </style>
+</head>
+<body>
+<form action="BT-Tao-form-don-gian.html" method="get" >
+
+<table>
+    <tr>
+        <td colspan="4">
+           <h2 class="tieude" >Sở Thích Cá Nhân</h2>
+       </td>
+    </tr>
+    <tr>
+        <th class="chu_xanh">Họ và tên</th>
+        <td colspan="3"><input type="text" placeholder="Họ và tên" size="25"></td>
+    </tr>
+    <tr>
+        <th class="chu_xanh">Email</th>
+        <td colspan="3"><input type="text" placeholder="Email" size="20"></td>
+    </tr>
+    <tr>
+        <th class="chu_xanh">Sở Thích</th>
+
+            <td class="cam">
+                <input type="checkbox" name="Thethao" > Thể Thao
+            </td>
+            <td class="cam">
+                <input type="checkbox" name="Amnhac" > ÂM nhạc
+            </td >
+            <td class="cam">
+                <input type="checkbox" name="Docsach" > Đọc Sách
+            </td>
+    </tr>
+    <tr>
+        <th></th>
+        <td class="cam">
+            <input type="checkbox" name="luotweb" > Lướt web
+        </td>
+        <td class="cam">
+            <input type="checkbox" name="Choigame" > Chơi game
+        </td>
+        <td class="cam">
+            <input type="checkbox" name="Dienanh" > Điện ảnh
+        </td>
+    </tr>
+    <tr>
+        <th></th>
+        <td style="color: coral">
+            <input type="checkbox" name="Dulic" > Du lịch
+        </td>
+        <td></td>
+        <td></td>
+    </tr>
+        <tr>
+            <td></td>
+            <td>
+                <input type="submit" value="Gửi thông tin">
+                <input type="reset" value="Nhập lại">
+            </td>
+        </tr>
+</table>
+</form>
+</body>
+<br>
+<br>
+<br>
+<br>
+<br>
+<body>
+<form method="get" action="BT-Tao-form-don-gian.html">
+<table  style="background: khaki">
+    <Tr>
+        <td colspan="2">
+            <H2 style="color: blue">ĐĂNG KÝ HỌC VIÊN</H2>
+        </td>
+    </Tr>
+    <tr>
+        <th> Họ và tên</th>
+        <td><input type="text" placeholder="Họ và tên" size="20"></td>
+    </tr>
+    <tr>
+        <th>Ngày Sinh</th>
+        <td><input type="text" placeholder="Ngày sinh" size="20"></td>
+
+    </tr>
+    <tr>
+        <th> Giới tính</th>
+        <td>
+            <input type="radio" name="gt"/> Nam <input type="radio"name="gt"> Nữ
+        </td>
+    </tr>
+    <tr>
+        <th>Địa chỉ</th>
+        <td>
+            <textarea name="" id="" cols="30" rows="5"></textarea>
+        </td>
+    </tr>
+    <tr>
+        <th>Lớp</th>
+        <td>
+            <select name="" id="">
+                <option value="Chọn lớp">-Chọn Lớp-</option>
+                <option value="Lớp 1">Lớp 1</option>
+                <option value="Lớp 2">Lớp 3</option>
+                <option value="Lớp 3">Lớp 3</option>
+                <option value="Lớp 4">Lớp 4</option>
+                <option value="Lớp 5">Lớp 5</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <th>Email</th>
+        <td><input type="text" placeholder="Email" size="20"></td>
+    </tr>
+    <tr>
+        <th>Điện Thoại</th>
+        <td><input type="text" placeholder="Điện Thoại" size="20"></td>
+    </tr>
+</table>
+</form>
+</body>
+</html>
